@@ -1,0 +1,39 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    height: 15vh;
+    background-color: wheat;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.menu{
+    float: right;
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+
+section{
+    height: 100vh;
+}
+
+.y {
+    display: flex;
+    padding-left: 2em;
+}
+
+.y h1{
+    padding-left: 2em;
+}
